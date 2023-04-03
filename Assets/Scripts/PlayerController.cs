@@ -7,13 +7,21 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float speed = 5f;
     [SerializeField] private float diagonalSpeedMultiplier = 0.7f;
     [SerializeField] private float checkDelay = 5f;
-
+    [SerializeField] private float scale = 0.4f;
+    
+    
     private Rigidbody2D rb2d;
     private Animator animator;
-    private bool reposicionado;
-
     private Vector2 movement;
+    
+    private bool reposicionado;
     private bool isCheckingPosition = false;
+    private SpriteRenderer spriteRenderer;
+
+    private void Start()
+    {
+        spriteRenderer = GetComponent<SpriteRenderer>();
+    }
 
     private void Awake()
     {
@@ -28,45 +36,33 @@ public class PlayerController : MonoBehaviour
     
     private void Update()
     {
+        
+        // Obtener la referencia del componente Sprite Renderer
+
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 
-        // Limit diagonal movement speed
-        if (movement.magnitude > 1f)
-        {
-            movement.Normalize();
-        }
-
+        movement = new Vector2(movement.x,movement.y).normalized;
+        
         // Set animator parameters
+        if (movement.x < 0)
+        {
+            // Cambiar el valor de la propiedad flipX a true para voltear el sprite
+            spriteRenderer.flipX = false;
+        }
+        else
+        {
+            spriteRenderer.flipX = true;
+        }
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Vertical", movement.y);
-        animator.SetFloat("Speed", movement.magnitude);
+        animator.SetFloat("speed", movement.magnitude);
 
-        // Flip sprite based on horizontal movement direction
-        if (movement.x > 0f)
-        {
-            transform.localScale = new Vector3(0.1f, 0.1f, 0.1f);
-        }
-        else if (movement.x < 0f)
-        {
-            transform.localScale = new Vector3(-0.1f, 0.1f, 0.1f);
-        }
     }
 
     private void FixedUpdate()
     {
-        if (movement != Vector2.zero)
-        {
-            // Calculate movement speed based on diagonal or straight movement
-            float currentSpeed = speed;
-            if (movement.x != 0f && movement.y != 0f)
-            {
-                currentSpeed *= diagonalSpeedMultiplier;
-            }
-
-            // Move the rigidbody
-            rb2d.MovePosition(rb2d.position + this.movement.normalized * (currentSpeed * Time.fixedDeltaTime));
-        }
+       rb2d.MovePosition(rb2d.position + movement * (speed * Time.fixedDeltaTime));
     }
 
     private void CheckPosition()
