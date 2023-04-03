@@ -1,103 +1,122 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class PlayerController : MonoBehaviour
 {
+    [SerializeField] private float speed = 5f;
+    [SerializeField] private float diagonalSpeedMultiplier = 0.7f;
+    [SerializeField] private float checkDelay = 5f;
 
-    public float jumpForce;
-    public float speed;
-    private Rigidbody2D rb;
-    private Animator anim;
+    private Rigidbody2D rb2d;
+    private Animator animator;
+    private bool reposicionado;
 
-    public Transform groundPos;
-    private bool isGrounded;
-    public float checkRadius;
-    public LayerMask whatIsGround;
+    private Vector2 movement;
+    private bool isCheckingPosition = false;
 
-    private float jumpTimeCounter;
-    public float jumpTime;
-    private bool isJumping;
-    private bool doubleJump;
-    public CameraFollow cameraFollow;
-
-    private void Start()
+    private void Awake()
     {
-        anim = GetComponent<Animator>();
-        rb = GetComponent<Rigidbody2D>();
+        rb2d = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
+        
+        // Make player invisible
+        gameObject.SetActive(false);
+        this.reposicionado = false;
+        CheckPosition();
     }
-
+    
     private void Update()
     {
+        movement.x = Input.GetAxisRaw("Horizontal");
+        movement.y = Input.GetAxisRaw("Vertical");
 
-        isGrounded = Physics2D.OverlapCircle(groundPos.position, checkRadius, whatIsGround);
-
-        if (isGrounded == true && Input.GetKeyDown(KeyCode.Z))
+        // Limit diagonal movement speed
+        if (movement.magnitude > 1f)
         {
-            anim.SetTrigger("takeOf");
-            isJumping = true;
-            jumpTimeCounter = jumpTime;
-            rb.velocity = Vector2.up * jumpForce;
+            movement.Normalize();
         }
 
-        if (isGrounded == true)
+        // Set animator parameters
+        animator.SetFloat("Horizontal", movement.x);
+        animator.SetFloat("Vertical", movement.y);
+        animator.SetFloat("Speed", movement.magnitude);
+
+        // Flip sprite based on horizontal movement direction
+        if (movement.x > 0f)
         {
-            doubleJump = false;
-            anim.SetBool("isJumping", false);
+            transform.localScale = new Vector3(0.1f, 0.1f, 0.1f);
         }
-        else {
-
-            anim.SetBool("isJumping", true);
-        }
-
-
-        if (Input.GetKey(KeyCode.Z) && isJumping == true)
+        else if (movement.x < 0f)
         {
-            if (jumpTimeCounter > 0)
+            transform.localScale = new Vector3(-0.1f, 0.1f, 0.1f);
+        }
+    }
+
+    private void FixedUpdate()
+    {
+        if (movement != Vector2.zero)
+        {
+            // Calculate movement speed based on diagonal or straight movement
+            float currentSpeed = speed;
+            if (movement.x != 0f && movement.y != 0f)
             {
-                rb.velocity = Vector2.up * jumpForce;
-                jumpTimeCounter -= Time.deltaTime;
+                currentSpeed *= diagonalSpeedMultiplier;
+            }
+
+            // Move the rigidbody
+            rb2d.MovePosition(rb2d.position + this.movement.normalized * (currentSpeed * Time.fixedDeltaTime));
+        }
+    }
+
+    private void CheckPosition()
+    {
+        if (!this.reposicionado)
+        {
+            Debug.Log("Entre al check");
+            // Check if the player is on top of a collider
+            Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, 0.2f);
+            bool isOnCollider = false;
+            foreach (Collider2D collider in colliders)
+            {
+                if (collider != GetComponent<Collider2D>())
+                {
+                    isOnCollider = true;
+                    break;
+                }
+            }
+
+            // If the player is not on a collider, activate the gameObject
+            if (!isOnCollider)
+            {
+                Debug.Log("Lo activo");
+                gameObject.SetActive(true);
+                reposicionado = true;
             }
             else
             {
-                isJumping = false;
+                // Otherwise, reposition the player and check again after a delay
+                transform.position = new Vector3(Random.Range(-5f, 5f), Random.Range(-5f, 5f), 0f);
+                Invoke("CheckPosition", checkDelay);
             }
-        }
 
-        if (Input.GetKeyUp(KeyCode.Z))
-        {
-            isJumping = false;
-
-        }
-
-        if (isGrounded == false && doubleJump == false && Input.GetKeyDown(KeyCode.Z)) {
-            isJumping = true;
-            doubleJump = true;
-            isJumping = true;
-            jumpTimeCounter = jumpTime;
-            rb.velocity = Vector2.up * jumpForce;
-        }
-
-        float moveInput = Input.GetAxisRaw("Horizontal");
-        rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
-
-        if (moveInput != 0)
-        {
-            anim.SetBool("isRunning", true);
-        }
-        else
-        {
-            anim.SetBool("isRunning", false);
-        }
-
-        if (moveInput < 0)
-        {
-            transform.eulerAngles = new Vector3(0, 180, 0);
-        }
-        else if (moveInput > 0)
-        {
-            transform.eulerAngles = new Vector3(0, 0, 0);
+            isCheckingPosition = false;
         }
     }
 
+    private void OnEnable()
+    {
+        if (!isCheckingPosition)
+        {
+            Debug.Log("Check position");
+            isCheckingPosition = true;
+            Invoke("CheckPosition", checkDelay);
+        }
+        else
+        {
+            Debug.Log("No Check");
+            gameObject.SetActive(true);
+        }
+    }
 }
+

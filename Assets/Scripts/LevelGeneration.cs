@@ -9,9 +9,6 @@ public class LevelGeneration : MonoBehaviour {
     public GameObject[] rooms; // index 0 --> closed, index 1 --> LR, index 2 --> LRB, index 3 --> LRT, index 4 --> LRBT
 
     [SerializeField]
-    public GameObject playerPrefab;
-    
-    [SerializeField]
     public Vector2 initialPosition;
     
     private int direction;
@@ -32,7 +29,6 @@ public class LevelGeneration : MonoBehaviour {
         transform.position = startingPositions[randStartingPos].position;
         Instantiate(rooms[1], transform.position, Quaternion.identity);
         direction = Random.Range(1, 6);
-        Invoke("PlayerInstance",2f);
     }
 
     private void Update()
@@ -151,9 +147,4 @@ public class LevelGeneration : MonoBehaviour {
         }
     }
     
-    
-    void PlayerInstance()
-    {
-        Instantiate(playerPrefab, initialPosition, Quaternion.identity);
-    }
 }

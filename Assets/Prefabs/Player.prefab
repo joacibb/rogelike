@@ -121,12 +121,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jumpForce: 25
   speed: 13
+  player: {fileID: 0}
   groundPos: {fileID: 4126305966449462}
   checkRadius: 0.2
   whatIsGround:
     serializedVersion: 2
     m_Bits: 256
   jumpTime: 0.2
+  cameraFollow: {fileID: 0}
 --- !u!1 &1085547990983430
 GameObject:
   m_ObjectHideFlags: 0

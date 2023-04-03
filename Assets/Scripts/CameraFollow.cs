@@ -2,24 +2,20 @@
 
 public class CameraFollow : MonoBehaviour
 {
-    public Transform target;
+    public GameObject personaje;
 
-    public float smoothSpeed;
-    public Vector3 offset;
-
-    public PlayerController player;
-
-    void Start()
+    private void LateUpdate()
     {
-        player = FindObjectOfType<PlayerController>();
-    }
+        // Obtener la posición actual de la cámara
+        Vector3 posicionActual = transform.position;
 
-    void LateUpdate()
-    {
-        transform.position =
-            new Vector3(player.transform.position.x, player.transform.position.y, transform.position.z);
-        Vector3 desiredPosition = target.position + offset;
-        Vector3 smoothedPos = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed);
-        transform.position = smoothedPos;
+        // Obtener la posición actual del personaje
+        Vector3 posicionPersonaje = personaje.transform.position;
+
+        // Calcular la nueva posición de la cámara
+        Vector3 nuevaPosicion = new Vector3(posicionPersonaje.x, posicionPersonaje.y, posicionActual.z);
+
+        // Asignar la nueva posición a la cámara
+        transform.position = nuevaPosicion;
     }
 }
