@@ -41,11 +41,17 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Photon\PhotonUnityNetworking\UtilityScripts\PhotonPlayer\Editor\PunTeamsInspector.cs" />
-     <Compile Include="Assets\Photon\PhotonUnityNetworking\UtilityScripts\PhotonPlayer\Editor\PhotonTeamsManagerInspector.cs" />
-     <Compile Include="Assets\Photon\PhotonUnityNetworking\UtilityScripts\PhotonPlayer\Editor\PlayerNumberingInspector.cs" />
-     <None Include="Assets\Photon\PhotonUnityNetworking\UtilityScripts\PhotonPlayer\Editor\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef" />
-     <Folder Include="Assets\Photon\PhotonUnityNetworking\UtilityScripts\PhotonPlayer\Editor" />
+    <Analyzer Include="B:\Unity\Projects\rogelike\Assets\Network\Photon\PhotonLibs\Metro\Photon3Unity3D.dll" />
+    <Analyzer Include="B:\Unity\Projects\rogelike\Assets\Network\Photon\PhotonLibs\WebSocket\websocket-sharp.dll" />
+    <Analyzer Include="B:\Unity\Projects\rogelike\Assets\Network\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll" />
+    <Analyzer Include="B:\Unity\Projects\rogelike\Assets\Network\Photon\PhotonLibs\Photon3Unity3D.dll" />
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Network\Photon\PhotonUnityNetworking\UtilityScripts\PhotonPlayer\Editor\PunTeamsInspector.cs" />
+     <Compile Include="Assets\Network\Photon\PhotonUnityNetworking\UtilityScripts\PhotonPlayer\Editor\PhotonTeamsManagerInspector.cs" />
+     <Compile Include="Assets\Network\Photon\PhotonUnityNetworking\UtilityScripts\PhotonPlayer\Editor\PlayerNumberingInspector.cs" />
+     <None Include="Assets\Network\Photon\PhotonUnityNetworking\UtilityScripts\PhotonPlayer\Editor\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef" />
+     <Folder Include="Assets\Network\Photon\PhotonUnityNetworking\UtilityScripts\PhotonPlayer\Editor" />
      <Reference Include="UnityEngine">
      <HintPath>B:\Unity\Editor\2021.3.20f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>
@@ -304,15 +310,6 @@
      <Reference Include="UnityEditor.WindowsStandalone.Extensions">
      <HintPath>B:\Unity\Editor\2021.3.20f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
      </Reference>
-     <Reference Include="Photon3Unity3D">
-     <HintPath>B:\Unity\Projects\rogelike\Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll</HintPath>
-     </Reference>
-     <Reference Include="Google.VersionHandler">
-     <HintPath>B:\Unity\Projects\rogelike\Assets\MobileDependencyResolver\Editor\Google.VersionHandler.dll</HintPath>
-     </Reference>
-     <Reference Include="Google.VersionHandlerImpl">
-     <HintPath>B:\Unity\Projects\rogelike\Assets\MobileDependencyResolver\Editor\Google.VersionHandlerImpl.dll</HintPath>
-     </Reference>
      <Reference Include="log4netPlastic">
      <HintPath>B:\Unity\Projects\rogelike\Library\PackageCache\com.unity.collab-proxy@2.0.1\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
      </Reference>
@@ -331,17 +328,17 @@
      <Reference Include="Unity.Plastic.Antlr3.Runtime">
      <HintPath>B:\Unity\Projects\rogelike\Library\PackageCache\com.unity.collab-proxy@2.0.1\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
      </Reference>
-     <Reference Include="websocket-sharp">
-     <HintPath>B:\Unity\Projects\rogelike\Assets\Photon\PhotonLibs\WebSocket\websocket-sharp.dll</HintPath>
-     </Reference>
      <Reference Include="unityplastic">
      <HintPath>B:\Unity\Projects\rogelike\Library\PackageCache\com.unity.collab-proxy@2.0.1\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
      </Reference>
-     <Reference Include="Google.JarResolver">
-     <HintPath>B:\Unity\Projects\rogelike\Assets\MobileDependencyResolver\Editor\Google.JarResolver.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.Analytics.Tracker">
      <HintPath>B:\Unity\Projects\rogelike\Library\PackageCache\com.unity.analytics@3.6.12\Unity.Analytics.Tracker.dll</HintPath>
+     </Reference>
+     <Reference Include="Photon3Unity3D">
+     <HintPath>B:\Unity\Projects\rogelike\Assets\Network\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll</HintPath>
+     </Reference>
+     <Reference Include="websocket-sharp">
+     <HintPath>B:\Unity\Projects\rogelike\Assets\Network\Photon\PhotonLibs\WebSocket\websocket-sharp.dll</HintPath>
      </Reference>
      <Reference Include="nunit.framework">
      <HintPath>B:\Unity\Projects\rogelike\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
