@@ -400,6 +400,8 @@
 "Assets/Scripts/Room.cs"
 "Assets/Scripts/RoomPos.cs"
 "Assets/Scripts/SpawnPoint.cs"
+"Assets/Scripts/ViewManager/View.cs"
+"Assets/Scripts/ViewManager/ViewManager.cs"
 -langversion:9.0
 
 /deterministic
