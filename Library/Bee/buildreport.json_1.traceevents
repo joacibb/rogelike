@@ -1,0 +1,498 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1680812195360408, "dur": 373470, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1680812195360683, "dur": 1185, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1680812195361869, "dur": 370403, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1680812195732273, "dur": 1604, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1680812195734110, "dur": 9, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1680812195387898, "dur":732, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680812195388640, "dur":229, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1680812195388924, "dur":30, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1680812195388954, "dur":208, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1680812195389184, "dur":794, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680812195389978, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680812195709375, "dur":90, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680812195709465, "dur":26, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680812195709491, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680812195709494, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680812195709501, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680812195709504, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680812195709510, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680812195709512, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680812195709518, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680812195709521, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680812195709526, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680812195709528, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680812195709536, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680812195709541, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680812195709578, "dur":1409, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1680812195389522, "dur":463, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680812195389986, "dur":1735, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680812195391728, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1680812195391731, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680812195391750, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1680812195391751, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680812195391761, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1680812195391779, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680812195391789, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1680812195391804, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680812195391813, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1680812195391824, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680812195391832, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1680812195391842, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680812195391850, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1680812195391932, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680812195391948, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680812195391963, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680812195391976, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680812195391990, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680812195392007, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680812195392023, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680812195392032, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680812195392043, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680812195392051, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680812195392060, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680812195392068, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680812195392077, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680812195392085, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680812195392095, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680812195392103, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680812195392114, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680812195392122, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680812195392131, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680812195392139, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680812195392148, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680812195392158, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680812195392166, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680812195392174, "dur":25638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680812195417813, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680812195417837, "dur":6196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.Purchasing.Codeless.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1680812195424034, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680812195424064, "dur":5973, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.Purchasing.AppleStub.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1680812195430038, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680812195430084, "dur":652, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680812195430736, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680812195430755, "dur":4997, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.Purchasing.AppleCore.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1680812195435752, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680812195435778, "dur":52271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680812195488049, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680812195488073, "dur":5679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/Unity.Services.Core.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1680812195493753, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680812195493778, "dur":36766, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680812195530544, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680812195530562, "dur":9653, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/PhotonUnityNetworking.Utilities.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1680812195540216, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680812195540243, "dur":96814, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/PhotonUnityNetworking.Utilities.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680812195637057, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680812195637085, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/Photon3Unity3D.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1680812195637099, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680812195637107, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/Photon3Unity3D.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680812195637116, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680812195637123, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/Newtonsoft.Json.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1680812195637131, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680812195637139, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680812195637147, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680812195637154, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680812195637164, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680812195637172, "dur":8673, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/NavMeshPlus.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1680812195645845, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680812195645865, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680812195645878, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680812195645886, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680812195645894, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680812195645902, "dur":4941, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1680812195650856, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680812195651084, "dur":2022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1680812195653122, "dur":55789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680812195708917, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680812195708924, "dur":396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680812195709331, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1680812195709332, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680812195389764, "dur":298, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680812195390062, "dur":1695, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680812195391758, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1680812195391785, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680812195391796, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1680812195391807, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680812195391815, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1680812195391835, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680812195391844, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680812195391886, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680812195391897, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1680812195391909, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680812195391917, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/websocket-sharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680812195391929, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680812195391940, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680812195391954, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680812195391964, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680812195391976, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680812195391985, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680812195391996, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680812195392010, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680812195392019, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680812195392027, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680812195392037, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680812195392046, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680812195392057, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680812195392066, "dur":95980, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680812195488047, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680812195488076, "dur":6910, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/Unity.Services.Core.Networking.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1680812195494987, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680812195495013, "dur":5053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/Unity.Services.Core.Environments.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1680812195500067, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680812195500098, "dur":618, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680812195500716, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680812195500734, "dur":424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680812195501158, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680812195501178, "dur":20105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680812195521284, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680812195521311, "dur":33627, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/Unity.Mediation.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680812195554938, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680812195554963, "dur":5402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/PhotonUnityNetworking.Demos.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1680812195560366, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680812195560391, "dur":5247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/PhotonRealtime.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1680812195565639, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680812195565659, "dur":95596, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/PhotonRealtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680812195661256, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680812195661280, "dur":753, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1680812195662034, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680812195662058, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1680812195662070, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680812195662078, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1680812195662087, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680812195662094, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":2, "ts":1680812195662106, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680812195662113, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1680812195662121, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680812195662128, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1680812195662136, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680812195662143, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1680812195662150, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680812195662156, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1680812195662164, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680812195662172, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1680812195662180, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680812195662187, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1680812195662195, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680812195662201, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1680812195662209, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680812195662216, "dur":566, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1680812195662782, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680812195662795, "dur":46564, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680812195389597, "dur":392, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680812195389990, "dur":1770, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680812195391760, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1680812195391790, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680812195391802, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1680812195391814, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680812195391824, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1680812195391834, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680812195391849, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680812195391912, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680812195391929, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680812195391942, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680812195391952, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680812195391967, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680812195391978, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680812195391987, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680812195391996, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680812195392012, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680812195392021, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680812195392030, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680812195392038, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680812195392048, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680812195392058, "dur":4916, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1680812195396974, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680812195396991, "dur":719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680812195397711, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680812195397733, "dur":896, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680812195398630, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680812195398655, "dur":7936, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.Purchasing.Stores.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1680812195406592, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680812195406620, "dur":543, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680812195407163, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680812195407183, "dur":8587, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.Purchasing.SecurityCore.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1680812195415770, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680812195415790, "dur":44440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680812195460230, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680812195460321, "dur":48913, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680812195509235, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680812195509259, "dur":21267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680812195530527, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680812195530557, "dur":26883, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680812195557441, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680812195557463, "dur":105000, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/PhotonUnityNetworking.Demos.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680812195662464, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680812195662482, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1680812195662494, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680812195662502, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1680812195662510, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680812195662517, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1680812195662527, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680812195662534, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1680812195662544, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680812195662551, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1680812195662564, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680812195662570, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1680812195662577, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680812195662584, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1680812195662591, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680812195662599, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1680812195662607, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680812195662614, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1680812195662690, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680812195662702, "dur":46658, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680812195389691, "dur":332, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680812195390023, "dur":1736, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680812195391759, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1680812195391796, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680812195391807, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1680812195391819, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680812195391829, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1680812195391845, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680812195391855, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation.exe" }}
+,{ "pid":12345, "tid":4, "ts":1680812195391946, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680812195391960, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680812195391970, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680812195391979, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680812195391992, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680812195392003, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680812195392017, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680812195392026, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680812195392037, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680812195392046, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680812195392058, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680812195392066, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680812195392076, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680812195392084, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680812195392093, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680812195392101, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680812195392110, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680812195392119, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680812195392127, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680812195392135, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680812195392144, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680812195392151, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680812195392159, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680812195392167, "dur":4909, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.SpatialTracking.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1680812195397076, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680812195397090, "dur":6747, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.Purchasing.WinRTCore.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1680812195403837, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680812195403865, "dur":68722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680812195472587, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680812195472620, "dur":5878, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/Unity.Services.Core.Registration.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1680812195478500, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680812195478533, "dur":30713, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680812195509246, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680812195509263, "dur":5488, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/Unity.Services.Core.Analytics.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1680812195514751, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680812195514775, "dur":91113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/Unity.Services.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680812195605888, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680812195605916, "dur":4037, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/PhotonChat.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1680812195609954, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680812195609975, "dur":52628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/PhotonChat.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680812195662603, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680812195662618, "dur":46744, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680812195389861, "dur":224, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680812195390086, "dur":1676, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680812195391762, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1680812195391789, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680812195391801, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1680812195391828, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680812195391842, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680812195391853, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680812195391931, "dur":4840, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.XR.LegacyInputHelpers.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1680812195396771, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680812195396799, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680812195396812, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680812195396821, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680812195396830, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680812195396840, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680812195396850, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680812195396859, "dur":7283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.Purchasing.WinRTStub.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1680812195404142, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680812195404158, "dur":10004, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.Purchasing.SecurityStub.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1680812195414162, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680812195414189, "dur":915, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680812195415104, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680812195415126, "dur":4528, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.Purchasing.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1680812195419654, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680812195419679, "dur":33622, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680812195453302, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680812195453332, "dur":5194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/Unity.Services.Core.Threading.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1680812195458527, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680812195458555, "dur":738, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680812195459294, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680812195459316, "dur":4935, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/Unity.Services.Core.Telemetry.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1680812195464252, "dur":398, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680812195464653, "dur":5434, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/Unity.Services.Core.Scheduler.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1680812195470087, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680812195470117, "dur":19769, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680812195489887, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680812195489915, "dur":722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680812195490638, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680812195490666, "dur":5763, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/Unity.Services.Core.Internal.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1680812195496430, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680812195496453, "dur":5159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/Unity.Services.Core.Environments.Internal.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1680812195501612, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680812195501633, "dur":5941, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/Unity.Services.Core.Device.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1680812195507574, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680812195507598, "dur":493, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680812195508092, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680812195508108, "dur":5240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/Unity.Services.Core.Configuration.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1680812195513349, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680812195513374, "dur":539, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680812195513913, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680812195513931, "dur":4394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/Unity.Services.Analytics.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1680812195518326, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680812195518362, "dur":4644, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/Unity.Mediation.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1680812195523006, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680812195523031, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/Unity.Analytics.Tracker.dll.mdb" }}
+,{ "pid":12345, "tid":5, "ts":1680812195523042, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680812195523050, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/Unity.Analytics.Tracker.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680812195523059, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680812195523066, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/Unity.Analytics.StandardEvents.dll.mdb" }}
+,{ "pid":12345, "tid":5, "ts":1680812195523074, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680812195523082, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/Unity.Analytics.StandardEvents.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680812195523090, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680812195523102, "dur":5387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/Unity.Analytics.DataPrivacy.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1680812195528490, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680812195528516, "dur":547, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680812195529063, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680812195529078, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680812195529089, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680812195529097, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680812195529106, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680812195529114, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680812195529122, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680812195529130, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680812195529138, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680812195529146, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680812195529154, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680812195529161, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680812195529169, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680812195529176, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680812195529184, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680812195529191, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680812195529199, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680812195529206, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680812195529214, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680812195529222, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680812195529230, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680812195529237, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680812195529245, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680812195529252, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680812195529260, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680812195529266, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680812195529274, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680812195529280, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680812195529288, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680812195529295, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680812195529302, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680812195529310, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680812195529317, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680812195529324, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680812195529332, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680812195529339, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680812195529352, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680812195529359, "dur":19034, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/Purchasing.Common.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1680812195548394, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680812195548415, "dur":4680, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/PhotonUnityNetworking.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1680812195553095, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680812195553118, "dur":125599, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/PhotonUnityNetworking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680812195678718, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680812195678749, "dur":30626, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680812195389962, "dur":154, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680812195390116, "dur":1623, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680812195391739, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1680812195391777, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680812195391789, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1680812195391802, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680812195391812, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1680812195391828, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680812195391837, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680812195391850, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680812195391934, "dur":33186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680812195425120, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680812195425142, "dur":2135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680812195427278, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680812195427304, "dur":4897, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1680812195432202, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680812195432222, "dur":522, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680812195432744, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680812195432760, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680812195432772, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680812195432781, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680812195432790, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680812195432797, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680812195432807, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680812195432814, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680812195432823, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680812195432831, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680812195432839, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680812195432846, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680812195432854, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680812195432861, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680812195432869, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680812195432876, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680812195432885, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680812195432892, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680812195432900, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680812195432907, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680812195432915, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680812195432922, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680812195432930, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680812195432937, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680812195432945, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680812195432952, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680812195432960, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680812195432967, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680812195432975, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680812195432982, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680812195432990, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680812195432996, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680812195433004, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680812195433012, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680812195433024, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680812195433031, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680812195433041, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680812195433048, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680812195433055, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680812195433061, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680812195433070, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680812195433079, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680812195433086, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680812195433093, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680812195433101, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680812195433108, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680812195433116, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680812195433123, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680812195433131, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680812195433137, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680812195433145, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680812195433152, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680812195433159, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680812195433166, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680812195433174, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680812195433181, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680812195433188, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680812195433195, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680812195433203, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680812195433210, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680812195433218, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680812195433224, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680812195433235, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680812195433242, "dur":4566, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1680812195437808, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680812195437833, "dur":8823, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1680812195446657, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680812195446684, "dur":190539, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680812195637224, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680812195637241, "dur":52133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles B:/Unity/Projects/Build Roguelike/Random Platformer LV Generation_Data/Managed/NavMeshPlus.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680812195689374, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680812195689414, "dur":19947, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680812195712104, "dur":1594, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1680812195734169, "dur": 480, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1680812195734099, "dur": 569, "ph": "X", "name": "Write chrome-trace events", "args": {} },

@@ -67,6 +67,9 @@
      <Compile Include="Assets\Network\Photon\PhotonChat\Demos\Common\TextToggleIsOnTransition.cs" />
      <Compile Include="Assets\Scripts\Room.cs" />
      <Compile Include="Assets\Network\Photon\PhotonChat\Demos\Common\OnStartDelete.cs" />
+     <Compile Include="Assets\Scripts\Network\Loading\ConnectToServer.cs" />
+     <Compile Include="Assets\CreateAndJoinRooms.cs" />
+     <Compile Include="Assets\MapManagerView.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Environment\Room Templates" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -94,6 +97,7 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
      <Folder Include="Assets\TextMesh Pro\Resources" />
      <Folder Include="Assets\Network\Photon\PhotonRealtime\Demos" />
+     <Folder Include="Assets\Art\Buttons" />
      <Folder Include="Assets\Scripts\Network" />
      <Folder Include="Assets\Animations\Player\Animator" />
      <Folder Include="Assets\Environment\Sprites" />
@@ -102,6 +106,7 @@
      <Folder Include="Assets\TextMesh Pro" />
      <Folder Include="Assets\Prefabs\COPY SPRIGHT\2D Character - Astronaut\Sprites" />
      <Folder Include="Assets\Prefabs" />
+     <Folder Include="Assets\Scripts\Network\Loading" />
      <Folder Include="Assets\Prefabs\COPY SPRIGHT\2D Character - Astronaut\Demo" />
      <Folder Include="Assets\Prefabs\Enemyes\xcf" />
      <Folder Include="Assets\Resources" />
@@ -135,12 +140,14 @@
      <Folder Include="Assets\TextMesh Pro\Fonts" />
      <Folder Include="Assets\Network\Photon\PhotonChat" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <Folder Include="Assets\Art\Fonts" />
      <Folder Include="Assets\Prefabs\Enemyes\png\slash" />
      <Folder Include="Assets\Network\Photon\PhotonUnityNetworking\Icons" />
      <Folder Include="Assets\Prefabs\Enemyes\png\bow" />
      <None Include="Assets\Resources\BillingMode.json" />
      <Folder Include="Assets\Animations\Player" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <Folder Include="Assets\Art" />
      <Folder Include="Assets\NavMeshPlus\Unity" />
      <Folder Include="Assets\NavMeshPlus" />
      <Folder Include="Assets\Animations" />
@@ -157,6 +164,7 @@
      <Folder Include="Assets\Environment" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
      <Folder Include="Assets\Network\Photon\PhotonLibs\WebSocket" />
+     <Folder Include="Assets\Art\Images" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne.json" />
      <Folder Include="Assets\NavMeshPlus\Gizmos" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
