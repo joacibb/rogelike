@@ -41,12 +41,6 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="B:\Unity\Projects\rogelike\Assets\Network\Photon\PhotonLibs\Metro\Photon3Unity3D.dll" />
-    <Analyzer Include="B:\Unity\Projects\rogelike\Assets\Network\Photon\PhotonLibs\WebSocket\websocket-sharp.dll" />
-    <Analyzer Include="B:\Unity\Projects\rogelike\Assets\Network\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll" />
-    <Analyzer Include="B:\Unity\Projects\rogelike\Assets\Network\Photon\PhotonLibs\Photon3Unity3D.dll" />
-  </ItemGroup>
-  <ItemGroup>
      <Compile Include="Assets\Network\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\GameVersionProperty.cs" />
      <Compile Include="Assets\Network\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Autonomous UI\Generic\IntInputField.cs" />
      <Compile Include="Assets\Network\Photon\PhotonUnityNetworking\Demos\PunBasics-Tutorial\Scripts\PlayerUI.cs" />
@@ -471,6 +465,9 @@
      <Reference Include="UnityEditor.WindowsStandalone.Extensions">
      <HintPath>B:\Unity\Editor\2021.3.20f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
      </Reference>
+     <Reference Include="Photon3Unity3D">
+     <HintPath>B:\Unity\Projects\rogelike\Assets\Network\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll</HintPath>
+     </Reference>
      <Reference Include="log4netPlastic">
      <HintPath>B:\Unity\Projects\rogelike\Library\PackageCache\com.unity.collab-proxy@2.0.1\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
      </Reference>
@@ -489,17 +486,14 @@
      <Reference Include="Unity.Plastic.Antlr3.Runtime">
      <HintPath>B:\Unity\Projects\rogelike\Library\PackageCache\com.unity.collab-proxy@2.0.1\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
      </Reference>
+     <Reference Include="websocket-sharp">
+     <HintPath>B:\Unity\Projects\rogelike\Assets\Network\Photon\PhotonLibs\WebSocket\websocket-sharp.dll</HintPath>
+     </Reference>
      <Reference Include="unityplastic">
      <HintPath>B:\Unity\Projects\rogelike\Library\PackageCache\com.unity.collab-proxy@2.0.1\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Analytics.Tracker">
      <HintPath>B:\Unity\Projects\rogelike\Library\PackageCache\com.unity.analytics@3.6.12\Unity.Analytics.Tracker.dll</HintPath>
-     </Reference>
-     <Reference Include="Photon3Unity3D">
-     <HintPath>B:\Unity\Projects\rogelike\Assets\Network\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll</HintPath>
-     </Reference>
-     <Reference Include="websocket-sharp">
-     <HintPath>B:\Unity\Projects\rogelike\Assets\Network\Photon\PhotonLibs\WebSocket\websocket-sharp.dll</HintPath>
      </Reference>
      <Reference Include="netstandard">
      <HintPath>B:\Unity\Editor\2021.3.20f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>

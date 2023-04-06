@@ -29,7 +29,6 @@
 -define:PLATFORM_ARCH_64
 -define:UNITY_64
 -define:UNITY_INCLUDE_TESTS
--define:UNITY_ANALYTICS
 -define:ENABLE_AR
 -define:ENABLE_AUDIO
 -define:ENABLE_CACHING
@@ -341,10 +340,6 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.SpatialTracking.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
--analyzer:"Assets/Network/Photon/PhotonLibs/Metro/Photon3Unity3D.dll"
--analyzer:"Assets/Network/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll"
--analyzer:"Assets/Network/Photon/PhotonLibs/Photon3Unity3D.dll"
--analyzer:"Assets/Network/Photon/PhotonLibs/WebSocket/websocket-sharp.dll"
 "Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.10/Runtime/ArmModels/ArmModel.cs"
 "Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.10/Runtime/ArmModels/SwingArmModel.cs"
 "Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.10/Runtime/ArmModels/TransitionArmModel.cs"

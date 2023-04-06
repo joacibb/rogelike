@@ -41,12 +41,6 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="B:\Unity\Projects\rogelike\Assets\Network\Photon\PhotonLibs\Metro\Photon3Unity3D.dll" />
-    <Analyzer Include="B:\Unity\Projects\rogelike\Assets\Network\Photon\PhotonLibs\WebSocket\websocket-sharp.dll" />
-    <Analyzer Include="B:\Unity\Projects\rogelike\Assets\Network\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll" />
-    <Analyzer Include="B:\Unity\Projects\rogelike\Assets\Network\Photon\PhotonLibs\Photon3Unity3D.dll" />
-  </ItemGroup>
-  <ItemGroup>
      <Compile Include="Assets\Network\Photon\PhotonChat\Demos\DemoChat\Editor\ChatEditor.cs" />
      <Folder Include="Assets\Network\Photon\PhotonChat\Demos\DemoChat\Editor" />
      <None Include="Assets\Editor\MediationAdapterDependencies.xml" />
@@ -309,6 +303,9 @@
      <Reference Include="UnityEditor.WindowsStandalone.Extensions">
      <HintPath>B:\Unity\Editor\2021.3.20f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
      </Reference>
+     <Reference Include="Photon3Unity3D">
+     <HintPath>B:\Unity\Projects\rogelike\Assets\Network\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll</HintPath>
+     </Reference>
      <Reference Include="log4netPlastic">
      <HintPath>B:\Unity\Projects\rogelike\Library\PackageCache\com.unity.collab-proxy@2.0.1\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
      </Reference>
@@ -327,17 +324,14 @@
      <Reference Include="Unity.Plastic.Antlr3.Runtime">
      <HintPath>B:\Unity\Projects\rogelike\Library\PackageCache\com.unity.collab-proxy@2.0.1\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
      </Reference>
+     <Reference Include="websocket-sharp">
+     <HintPath>B:\Unity\Projects\rogelike\Assets\Network\Photon\PhotonLibs\WebSocket\websocket-sharp.dll</HintPath>
+     </Reference>
      <Reference Include="unityplastic">
      <HintPath>B:\Unity\Projects\rogelike\Library\PackageCache\com.unity.collab-proxy@2.0.1\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Analytics.Tracker">
      <HintPath>B:\Unity\Projects\rogelike\Library\PackageCache\com.unity.analytics@3.6.12\Unity.Analytics.Tracker.dll</HintPath>
-     </Reference>
-     <Reference Include="Photon3Unity3D">
-     <HintPath>B:\Unity\Projects\rogelike\Assets\Network\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll</HintPath>
-     </Reference>
-     <Reference Include="websocket-sharp">
-     <HintPath>B:\Unity\Projects\rogelike\Assets\Network\Photon\PhotonLibs\WebSocket\websocket-sharp.dll</HintPath>
      </Reference>
      <Reference Include="nunit.framework">
      <HintPath>B:\Unity\Projects\rogelike\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
@@ -822,6 +816,22 @@
       <Project>{e603bbbc-321f-fc7c-835b-758da5ccdc71}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
+    <ProjectReference Include="PhotonChat.csproj">
+      <Project>{a7e482e2-671c-7404-0512-85728bad1cd8}</Project>
+      <Name>PhotonChat</Name>
+    </ProjectReference>
+    <ProjectReference Include="NavMeshPlusEditor.csproj">
+      <Project>{8cf64d34-f32a-9168-79f3-d7eebf4e81a6}</Project>
+      <Name>NavMeshPlusEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="NavMeshPlus.csproj">
+      <Project>{2acb0bd2-0373-c2bf-25ec-7c843d3ba2f1}</Project>
+      <Name>NavMeshPlus</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.Editor.csproj">
+      <Project>{522568cb-c108-9170-52aa-445e989b0a42}</Project>
+      <Name>PhotonUnityNetworking.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj">
       <Project>{fd791d4a-d2a3-d93f-ba1b-3d6ee9bdf9c2}</Project>
       <Name>PhotonUnityNetworking.Utilities.PhotonPlayer.Editor</Name>
@@ -829,18 +839,6 @@
     <ProjectReference Include="PunDemos.DemoHubEditor.csproj">
       <Project>{50f44279-ef4e-1b16-3403-96db3f204bac}</Project>
       <Name>PunDemos.DemoHubEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PunDemos.DemoSlotcarEditor.csproj">
-      <Project>{34616646-8dca-2fd8-3935-7f9fbd6ab52c}</Project>
-      <Name>PunDemos.DemoSlotcarEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonUnityNetworking.Demos.csproj">
-      <Project>{c8266622-62fd-76da-25bb-e48680374ff7}</Project>
-      <Name>PhotonUnityNetworking.Demos</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonUnityNetworking.Utilities.csproj">
-      <Project>{b7b8df52-4929-e74b-7adf-aba32c625642}</Project>
-      <Name>PhotonUnityNetworking.Utilities</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonRealtime.csproj">
       <Project>{a3ba5b87-777d-4c2b-3ab2-4201012ecfd6}</Project>
@@ -850,25 +848,21 @@
       <Project>{b99107b9-3d42-420e-57f3-6e5d77cd6095}</Project>
       <Name>PhotonUnityNetworking</Name>
     </ProjectReference>
-    <ProjectReference Include="PhotonChat.csproj">
-      <Project>{a7e482e2-671c-7404-0512-85728bad1cd8}</Project>
-      <Name>PhotonChat</Name>
+    <ProjectReference Include="PhotonUnityNetworking.Utilities.csproj">
+      <Project>{b7b8df52-4929-e74b-7adf-aba32c625642}</Project>
+      <Name>PhotonUnityNetworking.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.Demos.csproj">
+      <Project>{c8266622-62fd-76da-25bb-e48680374ff7}</Project>
+      <Name>PhotonUnityNetworking.Demos</Name>
+    </ProjectReference>
+    <ProjectReference Include="PunDemos.DemoSlotcarEditor.csproj">
+      <Project>{34616646-8dca-2fd8-3935-7f9fbd6ab52c}</Project>
+      <Name>PunDemos.DemoSlotcarEditor</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.Culling.Editor.csproj">
       <Project>{b0a7f173-213b-d0a4-6d3c-020c64068e87}</Project>
       <Name>PhotonUnityNetworking.Utilities.Culling.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonUnityNetworking.Editor.csproj">
-      <Project>{522568cb-c108-9170-52aa-445e989b0a42}</Project>
-      <Name>PhotonUnityNetworking.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="NavMeshPlus.csproj">
-      <Project>{2acb0bd2-0373-c2bf-25ec-7c843d3ba2f1}</Project>
-      <Name>NavMeshPlus</Name>
-    </ProjectReference>
-    <ProjectReference Include="NavMeshPlusEditor.csproj">
-      <Project>{8cf64d34-f32a-9168-79f3-d7eebf4e81a6}</Project>
-      <Name>NavMeshPlusEditor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

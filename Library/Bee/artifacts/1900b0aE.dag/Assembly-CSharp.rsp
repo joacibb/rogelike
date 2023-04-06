@@ -29,7 +29,6 @@
 -define:PLATFORM_ARCH_64
 -define:UNITY_64
 -define:UNITY_INCLUDE_TESTS
--define:UNITY_ANALYTICS
 -define:ENABLE_AR
 -define:ENABLE_AUDIO
 -define:ENABLE_CACHING
@@ -374,10 +373,6 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.SpatialTracking.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
--analyzer:"Assets/Network/Photon/PhotonLibs/Metro/Photon3Unity3D.dll"
--analyzer:"Assets/Network/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll"
--analyzer:"Assets/Network/Photon/PhotonLibs/Photon3Unity3D.dll"
--analyzer:"Assets/Network/Photon/PhotonLibs/WebSocket/websocket-sharp.dll"
 "Assets/Network/Photon/PhotonChat/Demos/Common/EventSystemSpawner.cs"
 "Assets/Network/Photon/PhotonChat/Demos/Common/OnStartDelete.cs"
 "Assets/Network/Photon/PhotonChat/Demos/Common/TextButtonTransition.cs"
@@ -400,6 +395,8 @@
 "Assets/Scripts/Room.cs"
 "Assets/Scripts/RoomPos.cs"
 "Assets/Scripts/SpawnPoint.cs"
+"Assets/Scripts/ViewManager/CreditsMenuView.cs"
+"Assets/Scripts/ViewManager/MainMenuView.cs"
 "Assets/Scripts/ViewManager/View.cs"
 "Assets/Scripts/ViewManager/ViewManager.cs"
 -langversion:9.0
