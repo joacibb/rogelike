@@ -1,6 +1,7 @@
 ﻿using System;
 using UnityEngine;
 using Random = UnityEngine.Random;
+using Photon.Pun;
 
 public class PlayerController : MonoBehaviour
 {
@@ -13,9 +14,12 @@ public class PlayerController : MonoBehaviour
     private Vector2 movement;
     private SpriteRenderer spriteRenderer;
 
+    private PhotonView view;
+    
     private void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
+        view = GetComponent<PhotonView>();
     }
 
     private void Awake()
@@ -28,27 +32,30 @@ public class PlayerController : MonoBehaviour
     
     private void Update()
     {
-        
-        // Obtener la referencia del componente Sprite Renderer
-
-        movement.x = Input.GetAxisRaw("Horizontal");
-        movement.y = Input.GetAxisRaw("Vertical");
-
-        movement = new Vector2(movement.x,movement.y).normalized;
-        
-        // Set animator parameters
-        if (movement.x < 0)
+        if (view.IsMine)
         {
-            // Cambiar el valor de la propiedad flipX a true para voltear el sprite
-            spriteRenderer.flipX = false;
+             
+            // Obtener la referencia del componente Sprite Renderer
+
+            movement.x = Input.GetAxisRaw("Horizontal");
+            movement.y = Input.GetAxisRaw("Vertical");
+
+            movement = new Vector2(movement.x,movement.y).normalized;
+        
+            // Set animator parameters
+            if (movement.x < 0)
+            {
+                // Cambiar el valor de la propiedad flipX a true para voltear el sprite
+                spriteRenderer.flipX = false;
+            }
+            else
+            {
+                spriteRenderer.flipX = true;
+            }
+            animator.SetFloat("Horizontal", movement.x);
+            animator.SetFloat("Vertical", movement.y);
+            animator.SetFloat("speed", movement.magnitude);
         }
-        else
-        {
-            spriteRenderer.flipX = true;
-        }
-        animator.SetFloat("Horizontal", movement.x);
-        animator.SetFloat("Vertical", movement.y);
-        animator.SetFloat("speed", movement.magnitude);
 
     }
 

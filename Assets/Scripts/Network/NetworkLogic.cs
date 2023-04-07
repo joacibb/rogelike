@@ -2,24 +2,30 @@ using System;
 using UnityEngine;
 using Photon.Pun;
 using Photon.Realtime;
+
 public class NetworkLogic : MonoBehaviourPunCallbacks
 {
     public static NetworkLogic instance;
-    // Start is called before the first frame update
+
     private void Awake()
     {
+        if (instance != null && instance != this)
+        {
+            DontDestroyOnLoad(gameObject);
+            // Si ya hay una instancia de NetworkLogic en la escena, destruye esta instancia
+            Destroy(gameObject);
+            return;
+        }
+
         instance = this;
         DontDestroyOnLoad(gameObject);
-    }
 
-    private void Start()
-    {
+        // Conecta al servidor de Photon
         PhotonNetwork.ConnectUsingSettings();
     }
 
-    // ReSharper disable Unity.PerformanceAnalysis
     public override void OnConnectedToMaster()
     {
-        Debug.Log("Connection Sucess");
+        Debug.Log("Connected to Photon");
     }
 }
