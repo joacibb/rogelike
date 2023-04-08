@@ -45,7 +45,7 @@
      <Compile Include="Assets\Scripts\Network\NetworkLogic.cs" />
      <Compile Include="Assets\Network\Photon\PhotonLibs\WebSocket\WebSocket.cs" />
      <Compile Include="Assets\Network\Photon\PhotonChat\Demos\Common\TextButtonTransition.cs" />
-     <Compile Include="Assets\Scripts\CreateAndJoinRooms.cs" />
+     <Compile Include="Assets\Scripts\Network\CreateAndJoinRooms.cs" />
      <Compile Include="Assets\Network\Photon\PhotonLibs\WebSocket\SocketWebTcp.cs" />
      <Compile Include="Assets\Scripts\SpawnPoint.cs" />
      <Compile Include="Assets\Network\Photon\PhotonChat\Demos\DemoChat\ChatAppIdCheckerUI.cs" />
@@ -54,6 +54,7 @@
      <Compile Include="Assets\Scripts\ViewManager\MainMenuView.cs" />
      <Compile Include="Assets\Network\Photon\PhotonChat\Demos\DemoChat\NamePickGui.cs" />
      <Compile Include="Assets\Scripts\LevelGeneration.cs" />
+     <Compile Include="Assets\Scripts\SpawnPlayers.cs" />
      <Compile Include="Assets\Scripts\ViewManager\ViewManager.cs" />
      <Compile Include="Assets\Network\Photon\PhotonChat\Demos\DemoChat\ChannelSelector.cs" />
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
@@ -71,7 +72,7 @@
      <Compile Include="Assets\Network\Photon\PhotonChat\Demos\Common\TextToggleIsOnTransition.cs" />
      <Compile Include="Assets\Scripts\Room.cs" />
      <Compile Include="Assets\Network\Photon\PhotonChat\Demos\Common\OnStartDelete.cs" />
-     <Compile Include="Assets\SpawnPlayers.cs" />
+     <Compile Include="Assets\Scripts\Network\PlayerCount.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Environment\Room Templates" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
