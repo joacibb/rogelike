@@ -1503,7 +1503,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1074905942}
-  - component: {fileID: 1074905941}
+  - component: {fileID: 1074905943}
   m_Layer: 5
   m_Name: View Manager
   m_TagString: Untagged
@@ -1511,23 +1511,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1074905941
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1074905940}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c7c052f8b88acfa4eb307a56626ed343, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  views:
-  - {fileID: 910867195}
-  - {fileID: 2004931146}
-  startingView: {fileID: 910867195}
-  currentView: {fileID: 0}
 --- !u!4 &1074905942
 Transform:
   m_ObjectHideFlags: 0
@@ -1543,6 +1526,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1074905943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1074905940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e1e3ad55e8a7f344be2de97d8d7a5a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  views:
+  - {fileID: 910867195}
+  - {fileID: 2004931146}
+  startingView: {fileID: 910867195}
+  currentView: {fileID: 0}
 --- !u!1 &1146411896
 GameObject:
   m_ObjectHideFlags: 0
